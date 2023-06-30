@@ -14,28 +14,53 @@ body {
 }
 
 #principal h1, #contato h1 {
-    color: #000000;
+    color: #ffffff;
     font-size: 36px;
     font-family: 'Permanent Marker', cursive;
     margin-top: 40px;
     margin-bottom: 10px;
 }
 
+.nome  {
+    color: #ffffff;
+}
+
+.email {
+    color: #ffffff;
+}
+
+.assunto {
+    color: #ffffff;
+}
+
+.mensagem {
+    color: #ffffff;
+}
+
 #principal h1::first-letter {
     color: wheat;
+}
+
+#footer-sucesso {
+    margin-bottom: 0;
 }
 
 #principal p {
     display: flex;
     justify-content: center;
-    color: white;
+    color: red;
     font-size: 25px;
     margin-top: 100px;
     font-family: 'Sarala', sans-serif;
 }
 
 .destaque {
-    border: solid 1px white;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 25px;
+    margin-top: 100px;
+    font-family: 'Sarala', sans-serif;
 }
 
 .produto a {
@@ -119,7 +144,7 @@ body {
     margin: auto;
     margin-top: 20px;
     width: calc(100% - 30px);
-    background-color: white;
+    background-color: #242424;
     color: #4CCC3C;
     padding: 15px;
     border-radius: 10px;
@@ -179,6 +204,7 @@ body {
 
 #rodape a {
     color: #F1E1F4;
+    text-decoration: none;
 }
 
 #rodape button {
