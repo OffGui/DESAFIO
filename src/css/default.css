@@ -52,6 +52,10 @@ body {
     margin-top:16px;
 }
 
+.nav {
+    margin-right:20px;
+}
+
 #menu ul {
     display: flex;
     justify-content: end;
@@ -192,15 +196,16 @@ body {
 
 @media (max-width: 768px) {
     #logo img {
-        width: 320px;
+        width: 100px;
     }
     #menu {
         background-color: #1B1B1B;
         padding: 0;
     }
     #menu ul {
+        margin-bottom: 100px;
         padding-top: 12px;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     
     #menu ul li {
