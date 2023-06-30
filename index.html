@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFINITY BOARD</title>
+    <!-- CSS DO BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- MEU CSS -->
+    <link rel="stylesheet" type="text/css" href="./src/css/default.css" />
+
+</head>
+<body>
+    <!--  AQUI É O TÍTULO DA MINHA PÁGINA  -->
+    <header id="cabecalho">
+        <!--Painel de navegação (navbar)-->
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+                <a href="home.html">
+                    <img src="./src/img/logo3.png" alt="logo Boutique do Boleiro" width="150px">
+                </a>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="produtos.html">PRODUTOS</a></li>
+                    <li><a href="quem-somos.html">QUEM SOMOS</a></li>
+                    <li><a href="./contato.html">CONTATO</a></li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="O que está buscando?"
+                        aria-label="Search">
+                    <button class="btn btn-outline-secondary" type="submit">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                            <path
+                                d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <!--AQUI É O SLIDE DA PÁGINA-->
+    <section id="slides">
+        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./src/img/slide1.png" class="d-block w-100" alt="slide1">
+              </div>
+              <div class="carousel-item">
+                <img src="./src/img/slide2.png" class="d-block w-100" alt="slide2">
+              </div>
+              <div class="carousel-item">
+                <img src="./src/img/slide3.png" class="d-block w-100" alt="slide3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <main id="principal">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-12">
+                    <h1>Infinity Board Shop</h1>
+                    <p>PRODUTOS EM DESTAQUE</p>
+                </div>
+            </div>
+
+            <section id="produtos">
+                <!-- AQUI É MEUS PRODUTOS -->
+                <ul class="row">
+                    <li class="col-lg-4 col-sm-12">
+                        <div class="produto">
+                            <img src="./src/img/FingCompSkullBlue.png" alt="Skate Skull Blue" />
+                            <h4>Fingerboard Completo Skulls Bonehead Blue</h4>
+                            <p class="preco">R$ 99,90</p>
+                            <a class="botao" href="https://api.whatsapp.com/send?phone=5511965204933&text=Ol%C3%A1,%20gostaria%20de%20adiquirir%20um%20produto." target="_blank">COMPRE AQUI</a>
+                        </div>
+                    </li><br>
+                    <li class="col-lg-4 col-sm-12">
+                        <div class="produto">
+                            <img src="./src/img/truckamarelo.png" alt="Skate Air Jordan1" />
+                            <h4>Truck Wide 2.0 32mm Amarelo 1of1 32mm</h4>
+                            <p class="preco">R$ 79,90</p>
+                            <a class="botao" href="https://api.whatsapp.com/send?phone=5511965204933&text=Ol%C3%A1,%20gostaria%20de%20adiquirir%20um%20produto." target="_blank">COMPRE AQUI</a>
+                        </div>
+                    </li>
+                    <li class="col-lg-4 col-sm-12">
+                        <div class="produto">
+                            <img src="./src/img/FingerCompBart.png" alt="Skate Bart" />
+                            <h4>Fingerboard Completo Inove Bart Graffiti</h4>
+                            <p class="preco">R$ 39,90</p>
+                            <a class="botao" href="https://api.whatsapp.com/send?phone=5511965204933&text=Ol%C3%A1,%20gostaria%20de%20adiquirir%20um%20produto." target="_blank">COMPRE AQUI</a>
+                        </div>
+                    </li>
+                    <li class="col-lg-4 col-sm-12">
+                        <div class="produto">
+                            <img src="./src/img/conemini.png" alt="Mini Cone" />
+                            <h4>Miniatura Cone</h4>
+                            <p class="preco">R$ 14,90</p>
+                            <a class="botao" href="https://api.whatsapp.com/send?phone=5511965204933&text=Ol%C3%A1,%20gostaria%20de%20adiquirir%20um%20produto." target="_blank">COMPRE AQUI</a>
+                        </div>
+                    </li>
+                    <li class="col-lg-4 col-sm-12">
+                        <div class="produto">
+                            <img src="./src/img/cavaletemini.png" alt="Mini Cavalete" />
+                            <h4>Miniatura Cavalete</h4>
+                            <p class="preco">R$ 24,90</p>
+                            <a class="botao" href="https://api.whatsapp.com/send?phone=5511965204933&text=Ol%C3%A1,%20gostaria%20de%20adiquirir%20um%20produto." target="_blank">COMPRE AQUI</a>
+                        </div>
+                    </li>
+                    <li class="col-lg-4 col-sm-12">
+                        <div class="produto">
+                            <img src="./src/img/hidrantemini.png" alt="Mini Hidrante" />
+                            <h4>Miniatura Hidrante</h4>
+                            <p class="preco">R$ 39,90</p>
+                            <a class="botao" href="https://api.whatsapp.com/send?phone=5511965204933&text=Ol%C3%A1,%20gostaria%20de%20adiquirir%20um%20produto." target="_blank">COMPRE AQUI</a>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section id="quem-somos" class="row">
+                <div class="col-lg-6">
+                    <img src="./src/images/quem-somos.png" alt="Foto da Maria tricotando" />
+                </div>
+                <div class="col-lg-6 texto" id="texto">
+                    <h2>Quem é ?</h2>
+                    <p>Maria é uma apaixonada pelo mundo das linhas, agulhas e criações artesanais desde muito jovem.</p>
+                    <p>Com habilidade e dedicação, Maria aprimorou suas técnicas de tricô ao longo dos anos, transformando os fios em verdadeiras obras de arte. Seus produtos são cuidadosamente confeccionados, utilizando as melhores matérias-primas e com um olhar atento aos detalhes.</p>
+                    <p>Na lojinha de tricô da Maria, você encontrará uma variedade de peças feitas à mão, que combinam conforto, elegância e estilo.</p>
+                    <a class="btn btn-lg" href="#">Leia mais</a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer id="rodape">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h2>Endereço</h2>
+                    <ul>
+                        <li>Rua dos Eucaliptos 345</li>
+                        <li>Bairro Floresta | Cidade Feliz - SP</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h2>Links</h2>
+                    <ul>
+                        <li><a href="#">Todos os produtos</a></li>
+                        <li><a href="contato.html">Fale Conosco</a></li>
+                        <li><a href="#">Mapa do site</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h2>Newsletter</h2>
+                    <p>Cadastre-se para receber ofertas e novidades!</p>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Digite seu e-mail..." />
+                        <div class="input-group-append">
+                          <button class="btn btn-outline-secondary" type="button" >Enviar</button>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- JAVASCRIPT DO BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
